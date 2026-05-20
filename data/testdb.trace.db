@@ -1,0 +1,12 @@
+2026-04-27 12:59:20.018268+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSISTENT_LOGINS" not found; SQL statement:
+delete from persistent_logins where username = ? [42102-232]
+2026-05-20 11:31:42.907252+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSISTENT_LOGINS" not found; SQL statement:
+insert into persistent_logins (username, series, token, last_used) values(?,?,?,?) [42102-232]
+2026-05-20 11:32:39.486825+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSISTENT_LOGINS" not found; SQL statement:
+insert into persistent_logins (username, series, token, last_used) values(?,?,?,?) [42102-232]
+2026-05-20 11:33:40.663019+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSISTENT_LOGINS" not found; SQL statement:
+insert into persistent_logins (username, series, token, last_used) values(?,?,?,?) [42102-232]
